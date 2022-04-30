@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "pm2 start index.js && pm2 monit",
+    "pm2d": "pm2 delete all",
+    "pm2stop": "pm2 stop all",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

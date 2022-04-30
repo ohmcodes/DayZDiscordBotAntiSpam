@@ -26,7 +26,7 @@ client.on('ready', async () => {
 				//Iterate through the messages here with the variable "messages".
 				messages.forEach(msg => {
 					//console.log(msg.createdTimestamp);
-					var Fifteen_minute = 15 * 60 * 1000;
+					var Fifteen_minute = 3 * 60 * 1000;
 					console.log("15mins: "+Fifteen_minute);
 					var FifteenMinsAgo = Date.now() - Fifteen_minute;
 					console.log("FifteenMinsAgo: "+FifteenMinsAgo);
